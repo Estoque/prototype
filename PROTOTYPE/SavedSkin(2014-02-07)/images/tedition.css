@@ -1,0 +1,657 @@
+@charset "UTF-8";
+/* line 82, images/*.png */
+.images-sprite, body.tedition_blog footer a.twitter, body.tedition_blog footer a.facebook, body.tedition_blog footer a.fav, body.tedition_blog footer a.rss, body.tedition_blog footer a.youtube, body.tedition_blog footer a.tistory {
+  background: url('images-s1f962c6a4a.png') no-repeat; }
+
+/* line 11, ../sass/tedition.scss */
+html, body {
+  height: 100%; }
+
+/* line 15, ../sass/tedition.scss */
+body {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  background: white; }
+
+/* line 28, ../sass/tedition.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif; }
+
+/* line 32, ../sass/tedition.scss */
+a {
+  color: #26d673;
+  text-decoration: none; }
+  /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:visited {
+    color: #979dac; }
+  /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:focus {
+    color: #35ceb7; }
+  /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:hover {
+    color: #35ceb7; }
+  /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:active {
+    color: #356ece; }
+  /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+  a:hover {
+    text-decoration: underline; }
+
+/* line 39, ../sass/tedition.scss */
+::selection {
+  color: white;
+  background: #26D673; }
+
+/* line 40, ../sass/tedition.scss */
+::-moz-selection {
+  color: white;
+  background: #26D673; }
+
+/* line 42, ../sass/tedition.scss */
+body.tedition_blog {
+  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(100%, #bfbfbf));
+  background-image: -webkit-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #bfbfbf 100%);
+  background-image: -moz-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #bfbfbf 100%);
+  background-image: -o-linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #bfbfbf 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #bfbfbf 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  /* line 49, ../sass/tedition.scss */
+  body.tedition_blog div.tt-panel {
+    margin-top: -18px; }
+  /* line 53, ../sass/tedition.scss */
+  body.tedition_blog hr {
+    display: none; }
+  /* line 56, ../sass/tedition.scss */
+  body.tedition_blog header {
+    width: 100%;
+    background: black;
+    position: fixed;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    border-top: 3px white solid;
+    padding: 0px 2.5% 20px 2.5%;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 5px 20px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.75) 0 5px 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0 5px 20px 5px;
+    z-index: 9999; }
+    /* line 67, ../sass/tedition.scss */
+    body.tedition_blog header h1.blogName {
+      font-family: 'Damion', cursive;
+      font-size: 50px;
+      font-weight: 100;
+      font-style: normal;
+      float: left;
+      margin: 0; }
+      /* line 74, ../sass/tedition.scss */
+      body.tedition_blog header h1.blogName a {
+        color: white;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 78, ../sass/tedition.scss */
+        body.tedition_blog header h1.blogName a:hover {
+          color: #26d673;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 84, ../sass/tedition.scss */
+    body.tedition_blog header div.blogMenu {
+      color: white;
+      float: right;
+      margin-top: 24px; }
+      /* line 88, ../sass/tedition.scss */
+      body.tedition_blog header div.blogMenu ul {
+        color: white;
+        list-style: none;
+        text-transform: uppercase;
+        font-weight: 200; }
+        /* line 93, ../sass/tedition.scss */
+        body.tedition_blog header div.blogMenu ul li {
+          float: left;
+          margin-right: 1em;
+          font-size: 16px; }
+          /* line 97, ../sass/tedition.scss */
+          body.tedition_blog header div.blogMenu ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            padding-top: 17px;
+            -webkit-transition-property: all;
+            -moz-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+            -webkit-transition-timing-function: ease;
+            -moz-transition-timing-function: ease;
+            -o-transition-timing-function: ease;
+            transition-timing-function: ease; }
+            /* line 102, ../sass/tedition.scss */
+            body.tedition_blog header div.blogMenu ul li a:hover {
+              color: #26d673;
+              border-top: 10px #26d673 solid;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 111, ../sass/tedition.scss */
+    body.tedition_blog header a#menuToggle {
+      display: none; }
+    /* line 114, ../sass/tedition.scss */
+    body.tedition_blog header div.mobileMenu {
+      display: none; }
+  /* line 118, ../sass/tedition.scss */
+  body.tedition_blog div.mainBody {
+    padding: 0;
+    position: relative;
+    width: 100%; }
+  /* line 126, ../sass/tedition.scss */
+  body.tedition_blog div.slider div.orbit-container div.orbit-bullets-container {
+    position: relative;
+    display: none; }
+    /* line 129, ../sass/tedition.scss */
+    body.tedition_blog div.slider div.orbit-container div.orbit-bullets-container ol.orbit-bullets {
+      float: none;
+      clear: both;
+      text-align: right; }
+      /* line 133, ../sass/tedition.scss */
+      body.tedition_blog div.slider div.orbit-container div.orbit-bullets-container ol.orbit-bullets li {
+        /* float: left; */ }
+  /* line 140, ../sass/tedition.scss */
+  body.tedition_blog div.box {
+    /* margin: 10px; */
+    background: #000;
+    width: 25%;
+    padding-bottom: 25%;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0;
+    margin-right: -4px;
+    margin-bottom: -3px; }
+    /* line 154, ../sass/tedition.scss */
+    body.tedition_blog div.box:hover h3.overlap:hover {
+      opacity: 0;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 160, ../sass/tedition.scss */
+    body.tedition_blog div.box:hover div.infoWrap h3.title {
+      color: white;
+      text-shadow: 0 0 0px white;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 165, ../sass/tedition.scss */
+    body.tedition_blog div.box:hover div.infoWrap p.contents {
+      color: white;
+      text-shadow: 0 0 0px white;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 172, ../sass/tedition.scss */
+    body.tedition_blog div.box:hover div.imgWrap:hover {
+      opacity: .2;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 178, ../sass/tedition.scss */
+    body.tedition_blog div.box h3.overlap {
+      position: absolute;
+      color: white;
+      text-align: center;
+      font-family: 'Damion', Nanum Pen Script, cursive;
+      font-size: 48px;
+      width: 100%;
+      /* 			height: 50%; */
+      padding-top: 25%;
+      padding-left: 5%;
+      padding-right: 5%;
+      overflow: hidden;
+      line-height: 48px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 195, ../sass/tedition.scss */
+    body.tedition_blog div.box div.imgWrap {
+      margin: 0;
+      overflow: hidden;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 204, ../sass/tedition.scss */
+      body.tedition_blog div.box div.imgWrap img {
+        width: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        padding-right: -25%; }
+    /* line 212, ../sass/tedition.scss */
+    body.tedition_blog div.box div.infoWrap {
+      margin: 0;
+      position: absolute;
+      padding: 5%; }
+      /* line 216, ../sass/tedition.scss */
+      body.tedition_blog div.box div.infoWrap h3.title {
+        font-size: 36px;
+        color: transparent;
+        font-weight: 200;
+        text-shadow: 0 0 20px white;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+      /* line 223, ../sass/tedition.scss */
+      body.tedition_blog div.box div.infoWrap p.contents {
+        color: transparent;
+        text-shadow: 0 0 20px white;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+  /* line 230, ../sass/tedition.scss */
+  body.tedition_blog nav#sidebar {
+    display: none; }
+  /* line 233, ../sass/tedition.scss */
+  body.tedition_blog div#paging {
+    display: none; }
+  /* line 236, ../sass/tedition.scss */
+  body.tedition_blog footer {
+    /* display: none; */
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    /* !소셜 아이콘 리스트		 */
+    /* !소셜 아이콘		 */ }
+    /* line 242, ../sass/tedition.scss */
+    body.tedition_blog footer h1.blogName {
+      display: none; }
+    /* line 245, ../sass/tedition.scss */
+    body.tedition_blog footer p {
+      color: #2E2E2E;
+      font-size: 18px;
+      font-family: 'Damion', cursive;
+      text-align: center;
+      text-shadow: 1px 1px 1px #F8F8F8;
+      margin: 0; }
+    /* line 253, ../sass/tedition.scss */
+    body.tedition_blog footer p.counter {
+      font-size: 22px; }
+    /* line 256, ../sass/tedition.scss */
+    body.tedition_blog footer ul.social {
+      border: 5px solid white; }
+    /* line 260, ../sass/tedition.scss */
+    body.tedition_blog footer ul.social {
+      list-style: none;
+      clear: both;
+      height: 100px;
+      width: 450px;
+      margin: 0 auto;
+      margin-top: 30px; }
+      /* line 267, ../sass/tedition.scss */
+      body.tedition_blog footer ul.social li {
+        float: left;
+        margin-right: 1em; }
+        /* line 270, ../sass/tedition.scss */
+        body.tedition_blog footer ul.social li:first-child {
+          margin-left: 1em; }
+        /* line 273, ../sass/tedition.scss */
+        body.tedition_blog footer ul.social li:last-child {
+          margin-right: 0; }
+    /* line 279, ../sass/tedition.scss */
+    body.tedition_blog footer a.twitter {
+      background-position: 0 -197px;
+      width: 61px;
+      height: 50px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-left: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 281, ../sass/tedition.scss */
+      body.tedition_blog footer a.twitter:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 283, ../sass/tedition.scss */
+    body.tedition_blog footer a.facebook {
+      background-position: 0 -98px;
+      width: 25px;
+      height: 49px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 285, ../sass/tedition.scss */
+      body.tedition_blog footer a.facebook:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 287, ../sass/tedition.scss */
+    body.tedition_blog footer a.fav {
+      background-position: 0 0;
+      width: 64px;
+      height: 49px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 289, ../sass/tedition.scss */
+      body.tedition_blog footer a.fav:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 291, ../sass/tedition.scss */
+    body.tedition_blog footer a.rss {
+      background-position: 0 -247px;
+      width: 50px;
+      height: 51px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 293, ../sass/tedition.scss */
+      body.tedition_blog footer a.rss:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 295, ../sass/tedition.scss */
+    body.tedition_blog footer a.youtube {
+      background-position: 0 -147px;
+      width: 71px;
+      height: 50px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 297, ../sass/tedition.scss */
+      body.tedition_blog footer a.youtube:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+    /* line 299, ../sass/tedition.scss */
+    body.tedition_blog footer a.tistory {
+      background-position: 0 -49px;
+      width: 60px;
+      height: 49px;
+      display: inline-block;
+      font: 0/0 serif;
+      text-shadow: none;
+      color: transparent;
+      margin-right: 1em;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in;
+      -moz-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      opacity: .5; }
+      /* line 301, ../sass/tedition.scss */
+      body.tedition_blog footer a.tistory:hover {
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        opacity: 1; }
+
+@media only screen {
+  /* line 4, ../sass/_mquery-tedition.scss */
+  body.tedition_blog div.box {
+    width: 100%;
+    padding-bottom: 100%; }
+  /* line 8, ../sass/_mquery-tedition.scss */
+  body.tedition_blog ul.social {
+    display: none; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 17, ../sass/_mquery-tedition.scss */
+  body.tedition_blog div.box {
+    width: 50%;
+    padding-bottom: 50%; }
+  /* line 21, ../sass/_mquery-tedition.scss */
+  body.tedition_blog ul.social {
+    display: block; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 30, ../sass/_mquery-tedition.scss */
+  body.tedition_blog div.box {
+    width: 33.3%;
+    padding-bottom: 33.3%; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 40, ../sass/_mquery-tedition.scss */
+  body.tedition_blog div.box {
+    width: 25%;
+    padding-bottom: 25%; } }
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+  /* line 50, ../sass/_mquery-tedition.scss */
+  body.tedition_blog div.box {
+    width: 12.5%;
+    padding-bottom: 12.5%; } }
+/* min-width 1921px, xlarge screens */

@@ -1,0 +1,325 @@
+/* line 8, ../sass/guestbook.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif; }
+
+/* line 12, ../sass/guestbook.scss */
+html, body {
+  height: 100%; }
+
+/* line 16, ../sass/guestbook.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+  background: white; }
+
+/* line 27, ../sass/guestbook.scss */
+a {
+  color: #26d673;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease; }
+  /* line 18, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:visited {
+    color: #979dac; }
+  /* line 21, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:focus {
+    color: #35ceb7; }
+  /* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:hover {
+    color: #35ceb7; }
+  /* line 27, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:active {
+    color: #356ece; }
+  /* line 4, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+  a:hover {
+    text-decoration: underline; }
+
+/* line 34, ../sass/guestbook.scss */
+::selection {
+  color: white;
+  background: #26D673; }
+
+/* line 35, ../sass/guestbook.scss */
+::-moz-selection {
+  color: white;
+  background: #26D673; }
+
+/* line 37, ../sass/guestbook.scss */
+body#tt-body-guestbook {
+  background: url(../pattern.png), url(../bkgd.jpg) no-repeat center center fixed;
+  background: url(pattern.png), url(bkgd.jpg) no-repeat center center fixed;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover;
+  position: relative;
+  color: white; }
+  /* line 46, ../sass/guestbook.scss */
+  body#tt-body-guestbook div#guestbook {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(100%, rgba(0, 0, 0, 0.2)));
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 78%;
+    height: 50%;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0px 10px 32px 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.75) 0px 10px 32px 0px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 10px 32px 0px;
+    border: 2px solid black;
+    padding: 15px 20px 10px 20px; }
+    /* line 59, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook h1.title {
+      margin: 0;
+      font-size: 62px;
+      font-family: Damion;
+      font-weight: 100;
+      font-style: normal;
+      float: left;
+      color: white;
+      margin-bottom: 20px;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+    /* line 71, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook div.google {
+      float: right;
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 10px; }
+    /* line 77, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook hr {
+      margin: 10px 0;
+      clear: both;
+      color: white;
+      border-color: white;
+      background-color: white; }
+    /* line 84, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook p.pwd {
+      text-align: right;
+      font-weight: 100;
+      color: white; }
+    /* line 89, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook h3.blogName {
+      margin: 0;
+      font-size: 38px;
+      font-family: Damion;
+      font-weight: 100;
+      float: left; }
+      /* line 95, ../sass/guestbook.scss */
+      body#tt-body-guestbook div#guestbook h3.blogName a {
+        color: white;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease; }
+        /* line 101, ../sass/guestbook.scss */
+        body#tt-body-guestbook div#guestbook h3.blogName a:hover {
+          text-shadow: white 0 0 5px;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+          -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease;
+          -moz-transition-timing-function: ease;
+          -o-transition-timing-function: ease;
+          transition-timing-function: ease; }
+    /* line 107, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook div.blogMenu {
+      float: right;
+      margin: 0;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 15px;
+      text-align: left;
+      -webkit-transition-property: all;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      transition-timing-function: ease; }
+      /* line 118, ../sass/guestbook.scss */
+      body#tt-body-guestbook div#guestbook div.blogMenu ul {
+        list-style: none; }
+        /* line 120, ../sass/guestbook.scss */
+        body#tt-body-guestbook div#guestbook div.blogMenu ul li {
+          float: left;
+          margin-right: 1em; }
+          /* line 123, ../sass/guestbook.scss */
+          body#tt-body-guestbook div#guestbook div.blogMenu ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            padding-bottom: 20px; }
+            /* line 126, ../sass/guestbook.scss */
+            body#tt-body-guestbook div#guestbook div.blogMenu ul li a:hover {
+              color: white;
+              text-decoration: none;
+              border-bottom: 5px solid #26D673;
+              -webkit-transition-property: all;
+              -moz-transition-property: all;
+              -o-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.5s;
+              -moz-transition-duration: 0.5s;
+              -o-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+              -webkit-transition-timing-function: ease;
+              -moz-transition-timing-function: ease;
+              -o-transition-timing-function: ease;
+              transition-timing-function: ease; }
+    /* line 137, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook div.menuContainer {
+      display: block; }
+  /* line 142, ../sass/guestbook.scss */
+  body#tt-body-guestbook header {
+    display: none; }
+  /* line 146, ../sass/guestbook.scss */
+  body#tt-body-guestbook footer {
+    display: none; }
+  /* line 149, ../sass/guestbook.scss */
+  body#tt-body-guestbook nav#sidebar {
+    display: none; }
+  /* line 152, ../sass/guestbook.scss */
+  body#tt-body-guestbook div#paging {
+    display: none; }
+
+@media only screen {
+  /* line 160, ../sass/guestbook.scss */
+  body#tt-body-guestbook div.blogMenu {
+    display: none; }
+  /* line 163, ../sass/guestbook.scss */
+  body#tt-body-guestbook h1.title {
+    font-size: 55px; }
+  /* line 166, ../sass/guestbook.scss */
+  body#tt-body-guestbook div#guestbook {
+    width: 90%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 170, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook div.google {
+      display: none; } }
+/* Define mobile styles */
+@media only screen and (min-width: 40.063em) {
+  /* line 181, ../sass/guestbook.scss */
+  body#tt-body-guestbook div.blogMenu {
+    display: none; }
+  /* line 184, ../sass/guestbook.scss */
+  body#tt-body-guestbook h1.title {
+    font-size: 62px; }
+  /* line 187, ../sass/guestbook.scss */
+  body#tt-body-guestbook div#guestbook {
+    width: 90%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; } }
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  /* line 198, ../sass/guestbook.scss */
+  body#tt-body-guestbook div.blogMenu {
+    display: block; }
+  /* line 201, ../sass/guestbook.scss */
+  body#tt-body-guestbook div#guestbook {
+    width: 80%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; }
+    /* line 205, ../sass/guestbook.scss */
+    body#tt-body-guestbook div#guestbook div.google {
+      display: block; } }
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 90.063em) {
+  /* line 216, ../sass/guestbook.scss */
+  body#tt-body-guestbook div.blogMenu {
+    display: block; }
+  /* line 219, ../sass/guestbook.scss */
+  body#tt-body-guestbook div#guestbook {
+    width: 78%;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease; } }
+/* min-width 1441px, xlarge screens */
+/* min-width 1921px, xlarge screens */
